@@ -10,7 +10,7 @@ import java.util.*;
 public class Student
 {
     // the student's full name
-    private String name;
+    private String name;  
     // the student ID
     private String id;
     // the amount of credits for study taken so far
