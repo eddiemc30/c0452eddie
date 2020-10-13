@@ -1,0 +1,9 @@
+Ticket ticket1 = new Ticket("Highwycombe", 330);
+ticket1.print();
+Ticket Highwycombe price: 330 Issued Tue Oct 13 11:28:48 BST 2020
+Ticket Ticket = new Ticket("AylesburyTicket", 220);
+Ticket.print();
+Ticket AylesburyTicket price: 220 Issued Tue Oct 13 11:30:06 BST 2020
+Ticket ticket2 = new Ticket("Amersham", 300);
+ticket2.print();
+Ticket Amersham price: 300 Issued Tue Oct 13 11:31:48 BST 2020

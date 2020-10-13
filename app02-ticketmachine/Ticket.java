@@ -1,7 +1,7 @@
 import java.util.Date;
 /**
  * Write a description of class Ticket here.
- *this is my first ticket 
+ *ticket class to create time, destination and price
  * @author (eddie mccreadie)
  * @version (11/10/2020)
  */ 
