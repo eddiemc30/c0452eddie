@@ -7,16 +7,25 @@
  */
 public class Course
 {
-    private String title;
-    private String codeNo;
+private String codeNo;
+private String title;
+
+private Module module1;
+private Module module2;
+private Module module3;
+private Module module4;
     
-    /**
+/**
      * Constructor for objects of class Course
      */
     public Course(String title, String codeNo)
     {
-        this.title = title;
         this.codeNo = codeNo;
+        this.title = title;
     }
-
+public void addmodule (Module module, int moduleNo)
+{
+    if(moduleNo == 1)
+this.Module1 = module;
 }
+ }

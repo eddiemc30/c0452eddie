@@ -23,7 +23,15 @@ public class Module
         this.codeNo = codeNo;
         mark = 0;
     }
+    
+    
+    public void awardMark(int mark) 
+    {
+        this.mark = mark1;
+    }
 
+    
+    public void  
     /**
      * An example of a method - replace this comment with your own
      *
@@ -32,7 +40,6 @@ public class Module
      */
     public int sampleMethod(int y)
     {
-        // put your code here
-        return x + y;
+      
     }
 }
