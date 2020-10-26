@@ -2,6 +2,7 @@
 dependency1.from=LabClass
 dependency1.to=Student
 dependency1.type=UsesDependency
+<<<<<<< HEAD
 editor.fx.0.height=838
 editor.fx.0.width=1550
 editor.fx.0.x=-7
@@ -16,6 +17,22 @@ package.editor.x=667
 package.editor.y=180
 package.frame.height=600
 package.frame.width=800
+=======
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=552
+editor.fx.0.y=100
+objectbench.height=93
+objectbench.width=1896
+package.divider.horizontal=0.599476439790576
+package.divider.vertical=0.895397489539749
+package.editor.height=849
+package.editor.width=1806
+package.editor.x=-8
+package.editor.y=-8
+package.frame.height=1056
+package.frame.width=1936
+>>>>>>> 4f5a7c5c1b4037dd38aad3bf2e1ed1a61924a152
 package.numDependencies=1
 package.numTargets=2
 package.showExtends=true

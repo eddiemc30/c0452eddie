@@ -7,16 +7,21 @@
  */
 public class Module
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    //fields
+    private String Title;
+    
+    private String codeNo;
+    
+    private int mark; 
 
     /**
      * Constructor for objects of class Module
      */
-    public Module()
+    public Module(String title, String codeNo)
     {
-        // initialise instance variables
-        x = 0;
+        this.title = title; 
+        this.codeNo = codeNo;
+        mark = 0;
     }
 
     /**
