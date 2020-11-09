@@ -30,7 +30,9 @@ public class TicketMachine
     
 
     /**
-     * Create a machine that issues tickets of the given price.
+     * Create a machine that issues tickets of the given price.below
+     * is a representation of the price, total and destination of three
+     * train tickets.
      */
     public TicketMachine(int cost)
     {

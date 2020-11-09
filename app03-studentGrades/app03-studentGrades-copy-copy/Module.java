@@ -19,27 +19,20 @@ public class Module
      */
     public Module(String title, String codeNo)
     {
-        this.title = title; 
         this.codeNo = codeNo;
+        this.title = title;
         mark = 0;
     }
     
     
     public void awardMark(int mark) 
     {
-        this.mark = mark1;
-    }
-
-    
-    public void  
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-      
-    }
+        this.mark = mark;
+   
+     
+  
+   }
+  
 }
+
+        

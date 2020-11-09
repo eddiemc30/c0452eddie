@@ -26,6 +26,10 @@ private Module module4;
 public void addmodule (Module module, int moduleNo)
 {
     if(moduleNo == 1)
-this.Module1 = module;
+this.Module1 = module1;
+this.Module2 = module2;
+this.Module3 = module3;
+this.Module4 = module4;
+
 }
  }

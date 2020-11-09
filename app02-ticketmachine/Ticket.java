@@ -1,7 +1,8 @@
 import java.util.Date;
 /**
  * Write a description of class Ticket here.
- *ticket class to create time, destination and price
+ * i will be creating three train tickets each with  their prices 
+ *ticket class will have time, destination and price
  * @author (eddie mccreadie)
  * @version (11/10/2020)
  */ 
