@@ -1,9 +1,9 @@
 
 /**
  * Write a description of class Program here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ *this is where the static stockapp 
+ * @author (eddie mccreadie)
+ * @version (07/12/2020)
  */
 public class Program
 {
