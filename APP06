@@ -1,0 +1,61 @@
+# App06: Zuul Game Console Application
+*[Start by creating a GitHub repository by Using This BlueJ Template](https://github.com/BNU-CO452/App06-Zuul)*    
+*[Start by creating a GitHub repository by Using This IntelliJ Ultimate IDEA Template](https://github.com/BNU-CO452/IJ-App06-Zuul2)*
+## Description (10 Marks)
+*The student should replace this description with a full description of the completed game* 
+   
+This game is based on the classic console based game  *Colossal Cave Adventure* by Will Crowther (1975) see
+* [Colossal Cave Adventure Play Through](https://www.youtube.com/watch?v=O3etkSoHrR8&ab_channel=GladeSwope)   
+* [Colossal Cave Adventure Short Play](https://www.youtube.com/watch?v=sfGrPM5Bxeo&ab_channel=FridayNightArcade)   
+* [Colossal Cave Adventure Clone GitHub Repo](https://www.youtube.com/watch?v=UFu1WGJP6rQ&ab_channel=RedHatDeveloper)  
+* [GitHub Repository](https://github.com/tvall43/open-adventure)   
+* [Play the Game](https://www.amc.com/shows/halt-and-catch-fire/exclusives/colossal-cave-adventure)
+## User Requirements
+You have been tasked with creating a new small version of Zuul to use as proof of concept.  
+For this purpose you game should contain a minimum of 8 rooms for individual programmers,  12 rooms for a team of two and 16 rooms for a team of 3.  
+The game prototype must include the following new features:-
+1. Add a Player object with energy and a score.
+2. A set of Items that the player can pick up and use (minimum of 3 individually, 5 teams of 2, 7 teams of 3)
+3. A Map object that contains a set of interconnected rooms
+4. An increased set of recognised command words (minimum of 4 individually, 6 teams of 2, 8 teams of 3)
+5. A clear single objective.
+## Example Zuul Rooms
+![Zuul Starting Rooms](https://github.com/BNU-CO452/BlueJ-Apps/blob/master/images/Zuul-00.jpg)
+## Example of Game Requirements
+Out game will consist of 12 rooms based on the classic Calossal Cave Adventure and the objective is to find the hidden treasure which is in a room that is difficult to find.  Some of the rooms have items that must be used in order to progress.
+### Item List
+1. Tennis racquet
+2. Ball can't be picked up without having a tennis racquet.
+
+## Software Design
+### UML Use Case Diagram (20 Marks for 10 use cases)
+*The student should add a use case diagram summarising the functionality of the game* 
+![Use Case Diagram](https://github.com/BNU-CO452/BlueJ-Apps/blob/master/images/App06%20Use%20Cases.jpg)  
+### UML Class Diagram (20 marks for 10 classes)
+*The student should replace this class diagram with a class diagram of their completed game* 
+The design must be an extension of this basic design.   
+![Basic Design](https://github.com/BNU-CO452/BlueJ-Apps/blob/master/images/App06-classes.jpg)
+*The student should include a more detailed Class Diagram *
+## Black Box Testing (40 marks for 20 Black Box Tests)
+*Each member of the team must product at least 10 Black Box tests and a minimum of 20 in total*
+| Test No | Proposed Test | Data Entered | Expected Result | Actual Result | Comments |
+|:---:|-----|------|------|------|------|    
+| 01 | South from Valley  | "Go South" from valley | Enter Slit |  | |    
+| 02 | West from Valley | "Go West" from valley | No exit message |  | |    
+| 03 | Wrong Direction | "Go Home" from valley | Go where? message |  | |    
+## Game Walkthroughs (Testing 40% of total)
+*To test the game each member of the team must produce one example walkthrough of playing the game such as the one shown below.
+These walkthroughs should include*
+1. Going into each of the rooms
+2. Winning the game
+3. Loosing the game
+4. Picking up each item
+5. Using each item
+6. Using each command word
+7. Updating the player status and score
+   
+![Example Game](https://github.com/BNU-CO452/BlueJ-Apps/blob/master/images/Zuul-01.jpg)
+## Programming Issues (20 marks for 10 issues)
+*Each member of the team must have posted at least 3 issues and a total of 10 issues*
+## Application Evaluation (10 Marks for 5 improvements)
+*An evaluation with list of at least 5 ways the game can be improved or extended.*
